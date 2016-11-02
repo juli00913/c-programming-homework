@@ -2,7 +2,7 @@
 
 int main()
 {
-    int NumOfRows, row, colSpace, d, i, broi, diez;
+    int NumOfRows, row, colSpace, i, broi, diez;
     scanf("%d", &NumOfRows);
     broi=(NumOfRows-2)*(NumOfRows-2);
     printf("%d\n", broi);
