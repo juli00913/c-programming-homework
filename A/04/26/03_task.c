@@ -8,7 +8,7 @@ int main()
 
     fgets(strg, 1000, stdin);
 
-    while (strg[i] != '\n') {
+    while (strg[i] != '\0') {
 
         if (strg[i] >= 'A' && strg[i] <= 'Z')
             strg[i] = strg[i] + 32;
